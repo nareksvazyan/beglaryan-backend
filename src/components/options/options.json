@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_options_options",
+  "info": {
+    "displayName": "options"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "slecet": {
+      "type": "component",
+      "repeatable": true,
+      "component": "listoption.listoption"
+    }
+  }
+}

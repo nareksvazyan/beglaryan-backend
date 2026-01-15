@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "team_pageinfos",
+  "info": {
+    "singularName": "team-pageinfo",
+    "pluralName": "team-pageinfos",
+    "displayName": "TeamPageinfo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
