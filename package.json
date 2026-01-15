@@ -4,7 +4,7 @@
   "private": true,
   "description": "A Strapi application",
   "scripts": {
-    "build": "npx strapi build",
+    "build": "node ./node_modules/@strapi/strapi/bin/strapi.js build",
     "console": "npx strapi console",
     "deploy": "npx strapi deploy",
     "dev": "npx strapi develop",
